@@ -1,0 +1,61 @@
+.data-details-title {
+  font-size: 16px;
+  margin: 15px 0;
+}
+.data-details-title button {
+  border: 1px solid #2d8cf0;
+  color: #2d8cf0;
+  font-size: 12px;
+  padding:3px 10px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.data-details-title button:hover {
+  border: 1px solid #2d8cf0;
+}
+.mate-details{
+  margin-top: 30px;
+}
+.mate-details .mate-title{
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.app-details .ivu-table-cell{
+  padding: 0 10px;
+  /*text-align: center;*/
+}
+
+
+.workflow-content .app-details{
+  height: 100%;
+  max-height: calc(100% - 90px);
+  margin:20px 0;
+}
+.app-details{
+  height:100%;
+}
+.mate-details{
+  height:100%;
+  max-height: calc(100% - 40px);
+}
+.mate-details2{
+  height:100%;
+  max-height: calc(100% - 170px);
+}
+.mate-list{
+  height:100%;
+}
+.mate-list .ivu-table-wrapper{
+  height:100%;
+  max-height: calc(100% - 10px);
+}
+.mate-list .ivu-table-body {
+  max-height: calc(100% - 10px);
+  overflow-x: hidden;
+  overflow-y: auto;
+} 
+
+.detailPic1{
+  width: 80px;
+  height: 60px;
+}

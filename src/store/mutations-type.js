@@ -1,0 +1,10 @@
+export const changeSteps = 'changeSteps';  //  改变state中的步骤值
+export const changeUrl = 'changeUrl';  //  根据state中的步骤值返回相应的接口地址
+export const changeState = 'changeState';
+export const changeName = 'changeName';
+export const changeConfigTags = 'changeConfigTags';
+export const changeShowConfig = 'changeShowConfig';
+export const changeCondition = 'changeCondition';
+export const dateTime = 'dateTime';
+// export const changeTdtypeData = 'changeTdtypeData';
+// export const changeMapperData = 'changeMapperData';

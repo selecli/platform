@@ -1,0 +1,55 @@
+.manage-content {
+  height: calc(100% - 62px);
+}
+.manage-list {
+  height: calc(100% - 172px);
+}
+.manage-list .list {
+  height: 100%;
+  padding:0 10px;
+}
+.manage-content-btns {
+  margin: 15px 0;
+}
+.add-btn {
+  width: 100%;
+}
+.manage-search {
+  margin-right: 30px;
+}
+.manage-modal .ivu-modal {
+  height: auto;
+  top:150px;
+}
+.modal-content {
+  width: 70%;
+  margin: 0 auto;
+}
+.modal-content .ivu-modal-body {
+  overflow: auto;
+}
+.add-user-name {
+  /*width: 80%;*/
+  /*height: 30px;*/
+  /*background-color: rgba(0, 204, 153, 1);*/
+  line-height: 30px;
+  /*border-radius: 5px;*/
+  margin-bottom: 20px;
+  /*position: relative;*/
+  /*color: #fff;*/
+  padding:0 10px;
+}
+.user-del {
+  cursor: pointer;
+  font-size: 14px;
+  position: absolute;
+  top: -14px;
+  right: -4px;
+  color: red;
+}
+.add-user-list .ivu-col {
+  margin-top: 5px;
+}
+.add-role-modal .ivu-modal{
+  height:auto;
+}

@@ -1,0 +1,25 @@
+.sorts-content {
+  height:calc(100% - 62px);
+}
+.sorts-content .list {
+  height: 100%;
+  max-height: calc(100% - 62px);
+}
+.layout-assistant {
+  margin-left: 25px;
+}
+.layout-breadcrumb {
+  margin-top: 20px;
+}
+.layout-breadcrumb-right>div {
+  margin-left: 15px;
+}
+.ivu-breadcrumb-item-link {
+  cursor: pointer;
+}
+.ivu-breadcrumb-item-link:hover {
+  color: #2d8cf0;
+}
+.layout-content {
+  height:calc(100% - 124px);
+}

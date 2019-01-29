@@ -1,0 +1,89 @@
+.layout{
+  /* border: 1px solid #d7dde4; */
+  background: #495060;
+}
+.layout-logo{
+  width: 100px;
+  height: 30px;
+  background: #5b6270;
+  border-radius: 3px;
+  float: left;
+  position: relative;
+  top: 15px;
+  left: 20px;
+  background: url("../assets/logo.png") no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.layout-nav{
+  width: 550px;
+  margin: 0 auto;
+}
+.layout-assistant{
+  width: 300px;
+  margin: 0 auto;
+  height: inherit;
+}
+.layout-breadcrumb{
+  padding: 10px 15px 0;
+}
+.layout-content{
+  min-height: 200px;
+  margin: 15px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+}
+.layout-content-main{
+  padding: 10px;
+}
+.layout-copy{
+  text-align: center;
+  padding: 10px 0 20px;
+  color: #9ea7b4;
+}
+.logo-name{
+  float: left;
+  color: #fff;
+  margin-left: 30px;
+}
+.ivu-menu-item-active{
+  color:#5cadff !important;
+}
+.workflow-content-steps .ivu-steps {
+  text-align: center;
+}
+.workflow-content-steps .ivu-steps .ivu-steps-item {
+  width: auto !important;
+  margin-right: 80px;
+}
+.user-info {
+  color: #fff;
+  line-height: 60px;
+  font-size: 14px;
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+}
+.user-info .ivu-icon {
+  float: left;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top:18px;
+}
+.user-name {
+  float: left;
+  margin: 0 10px;
+}
+.logout-modal .ivu-modal {
+  height: auto;
+}
+.login-out .ivu-btn {
+  color: #fff;
+}
+
+.layout-nav .ivu-menu-item{
+  font-weight: bold;
+  padding: 0 30px;
+  font-size: 16px;
+}

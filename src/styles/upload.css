@@ -1,0 +1,20 @@
+
+.info-container .fileName{
+  display:inline-block;
+  color: #495060;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+.info-container .fileName:hover{
+    background: #f6f6f6;
+}
+.info-container .fileName:hover .delete{
+    opacity: 1;
+} 
+.info-container .delete{
+  margin-left:4px;
+  cursor: pointer;
+  position: relative;
+  top: 2px;
+  opacity: 0;
+}

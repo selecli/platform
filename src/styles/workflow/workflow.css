@@ -1,0 +1,156 @@
+.workflow-main{
+  /* height:calc(100% - 140px); */
+  /* margin:30px; */
+  height: 100%;
+}
+.workflow-content-box{
+  float:left;
+  /* width:calc(100% - 200px);  */
+  height:calc(100% - 140px); 
+  margin-top:30px;
+}
+.widthLittle{
+  width:calc(100% - 200px);
+}
+.sideBar-hide{
+  display: none;
+}
+.sideBar-show{
+  display:block;
+  color:red;
+}
+.widthMore{
+  width: 100%;
+}
+.workflow-sideBar{
+  width:200px; 
+  height:100%; 
+  background:#fff; 
+  float:left;
+  margin-top:-1px;
+  color:#000;
+  position:relative;
+}
+.workflow-sideBar .ivu-checkbox-wrapper{
+  margin-right:0px;
+}
+.workflow-sideBar .ivu-tree-title-selected{
+  background:#2d8cf0;
+  color:#fff;
+}
+.ivu-steps-item{
+  cursor: pointer;
+}
+.workflow-content{
+  height:calc(100% - 58px);
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  /* padding-left: 0px; */
+  border-top: 1px solid #cde2f7;
+  position: relative;
+}
+.workflow-content-init{
+  padding-left:0;
+}
+.workflow-content-init .common-float-left{
+  margin-left:10px;
+}
+.workflow-content-devider{
+  position:absolute;
+  top: 0;
+  width: 1px; 
+  height: calc(100% + 60px);
+  left: 0;
+  background:#cde2f7;
+  z-index: 999;
+}
+.workflow-upload-right{
+  float: right;
+}
+.workflow-upload-right button{
+  margin-left: 10px;
+}
+.ivu-upload{
+  float: left;
+}
+.workflow-filter{
+  /*padding: 10px;*/
+  margin-top: 20px;
+}
+.workflow-filter-right>div{
+  float: left;
+  margin-left: 10px;
+}
+.ivu-steps .ivu-steps-title{
+  background-color: #f9f9f9;
+}
+.ivu-steps .ivu-steps-head{
+  background-color: #f9f9f9;
+}
+
+.workflow-main .workflow-filter-left .ivu-select-multiple .ivu-tag {
+  display: none;
+}
+.workflow-main .workflow-filter-left .ivu-select-multiple .ivu-select-placeholder {
+  display: block !important;
+}
+.hash-tag-rel-result {
+  color: #999;
+}
+.mission-modal-checkbox .ivu-checkbox-wrapper {
+  margin-right: 16px;
+}
+.mission-modal p,.mission-modal span{
+  font-size: 14px;
+}
+/* .mission-modal-select {
+  margin-top: 10px;
+} */
+/*用户没有权限的样式*/
+.no-power {
+  cursor: not-allowed !important;
+}
+.mission-modal-num {
+  margin-top: 20px;
+}
+.mission-btn {
+  float:  left;
+}
+
+.ditch {
+  margin-left: 10px;
+}
+
+.sideBar-title{
+  margin-top: 30px;
+}
+.workflow-sideBar .ivu-btn-text{
+}
+.workflow-sideBar .ivu-btn-small{
+  font-size:20px;
+}
+.workflow-uploadBox{
+  width: 100px;
+  height: 32px;
+  display:inline-block;
+  position:relative;
+}
+.upload-hideBtn{
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.workflow-sideBar-title{
+  text-align:center; 
+  margin-bottom:10px; 
+  height:78px; 
+  background:#f9f9f9; 
+  border-bottom:1px solid #cde2f7;
+}
+.sideBar-button-group{
+  text-align:center;
+  width:100%; 
+  letter-spacing:-4px;
+}

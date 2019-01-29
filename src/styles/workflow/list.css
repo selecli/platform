@@ -1,0 +1,77 @@
+.workflow-content .list{
+  height: 100%;
+  max-height:calc(100% - 90px);
+  margin: 20px 0;
+  position: relative;
+  /*overflow: auto;*/
+}
+.list-devider{
+  position:absolute;
+  top: 0;
+  width: 1px; 
+  height: 100%;
+  left: 0;
+  background:#cde2f7;
+  z-index: 999;
+}
+.list-page{
+  position:relative;
+}
+.ivu-page{
+  margin-top: 10px;
+}
+.ivu-tooltip, .ivu-tooltip-rel{
+  width: 100%;
+}
+.ivu-tooltip-inner{
+  padding:8px;
+}
+
+.edit-btn {
+  margin-right: 5px;
+  display: block;
+  padding: 3px;
+  float: left;
+  cursor: pointer;
+}
+.ivu-table-cell {
+  width: 100%;
+}
+.ivu-tooltip-rel {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.list-table .ivu-table-cell button {
+  padding: 0;
+}
+.creat-time {
+  float: left;
+}
+.list .ivu-table-sort {
+  position: absolute;
+  margin-top: 6px;
+  margin-left: -10px;
+}
+.list-table {
+  height: 100%;
+}
+.list .ivu-table-body {
+  max-height: calc(100% - 40px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.list-table .ivu-table-cell {
+  text-align: left;
+  padding: 0 10px;
+}
+.ivu-tooltip-content .ivu-tooltip-inner {
+  white-space: normal;
+}
+.create-pop{
+  width:95%;
+  float: left;
+}
+.ivu-poptip {
+  position: absolute;
+}

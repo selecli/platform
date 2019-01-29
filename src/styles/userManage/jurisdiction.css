@@ -1,0 +1,31 @@
+.jurisdiction {
+  padding: 0 20px;
+}
+.jurisdiction .jurisdiction-top {
+  line-height: 50px;
+}
+.jurisdiction-back{
+  font-size: 16px;
+}
+.jurisdiction-back-btn {
+  font-size: 22px;
+}
+.jurisdiction-list {
+  margin-top: 10px;
+  background-color: #fff;
+}
+.jurisdiction-list-title {
+  border-bottom: 1px solid #3e79ff;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
+.jurisdiction-list-content {
+  text-align: center;
+  border-bottom: 1px solid #3e79ff;
+  font-size: 14px;
+  line-height: 60px;
+}
+.jurisdiction-list-content>.ivu-col {
+  border-right: 1px solid #4ec6fe;
+}

@@ -1,0 +1,117 @@
+.ivu-modal {
+  /* height: 80%; */
+  background-color: #fff;
+  top: 50px;
+  border-radius: 10px;
+}
+.edit-app-info {
+  margin-bottom: 10px;
+  float: left;
+  /*margin-right: 20px;*/
+}
+.edit-app-info .edit-text-right{
+   text-align:right;
+}
+.edit-right-tags span{
+  float: left;
+  padding:4px 15px;
+  background-color: rgba(0, 204, 153, 1);
+  text-align: center;
+  color: #fff;
+  margin: 2px 5px 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.edit-right-tags-icon {
+  display: none;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+}
+.edit-right-tags span:hover .edit-right-tags-icon{
+  display: block;
+}
+.tags {
+  margin-bottom: 15px;
+}
+.edit-app-info>span {
+  padding-top:5px;
+}
+.edit-app-info>.ivu-row {
+  line-height: 28px;
+}
+.edit .ivu-modal-content{
+  height: 100%;
+}
+.edit .ivu-modal-footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+}
+.edit .edit-right-title{
+  border-bottom: 1px solid #4ec6fe;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.edit .edit-right-content{
+  height: 120px;
+}
+.ivu-modal-content{
+  height:calc(100% - 135px);
+}
+.ivu-modal-body {
+  height: 100%;
+}
+/* .edit {
+  height: 100%;
+} */
+.edit .ivu-row {
+  height: 100%;
+}
+.edit-line-height{
+   line-height:32px;
+}
+.edit-position.ivu-row{
+  position:static;
+  margin-bottom:20px;
+}
+.ivu-cascader-menu{
+  max-width:120px;
+}
+.edit .ivu-row .ivu-col{
+  height: 100%;
+  position:static;
+}
+.edit-mapper {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  color: #fff;
+}
+
+
+/* .edit-detail-info{
+  margin-top:30px;
+} */
+.edit-detail-info>span{
+  padding-top:5px;
+  display:inline-block;
+}
+
+.app-edit-option>span{
+    float:left;
+    width:50%;
+}
+
+.ivu-modal-close .ivu-icon-ios-close-empty{
+  z-index:9999;
+}
+.ivu-select-dropdown.ivu-auto-complete{
+  height:100px;
+  overflow-y:scroll;
+}

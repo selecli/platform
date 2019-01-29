@@ -1,0 +1,23 @@
+.tag-content {
+  height:calc(100% - 95px);
+}
+.tag-list {
+  height:calc(100% - 55px);
+  padding:10px 25px;
+}
+.tag-content .list{
+  height:calc(100% - 30px);
+}
+.tag-filter {
+  margin-top: 30px;
+  padding:0 25px;
+}
+.filter-right .ivu-col {
+  float: right;
+}
+.filter-left .ivu-tag {
+  display: none;
+}
+.filter-left .ivu-select-placeholder {
+  display: block !important;
+}

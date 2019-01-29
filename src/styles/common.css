@@ -1,0 +1,254 @@
+@charset 'utf-8';
+/*RESET v3*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, cite, img, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  /*font: inherit;*/
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  /*10 ÷ 16 × 100% = 62.5%
+  * 1rem = 10px;
+  * 移动端改变字体时简单易用
+  */
+  /*font-size:20px;*/
+  font-size: 62.5%;
+  /*width:62.5%;*/
+  /*height:62.5%;*/
+}
+
+body {
+  min-width: 1280px;
+  font-family: 'Microsoft Yahei';
+  background-color: #f9f9f9;
+  overflow:hidden;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+i, em {
+  font-style: normal;
+}
+
+blockquote {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+select, option {
+  font-family: inherit;
+}
+
+option {
+  appearance: none;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari 和 Chrome */
+}
+
+.noselect {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+@media screen and ( max-width: 1024px ) {
+  html {
+    min-width: 1024px;
+    min-height: 580px;
+  }
+
+  .bodyStyle {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+  }
+}
+
+.bodyStyle {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.parent-router {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 1280px;
+}
+
+.parent-router-header {
+  position: relative;
+  width: 100%;
+  margin-bottom: 55px;
+  z-index: 100;
+}
+
+.main-container {
+  margin-top: 55px;
+}
+
+.common-float-left {
+  float: left;
+}
+
+.common-float-right {
+  float: right;
+}
+.common-margin-top-15 {
+  margin-top: 15px;
+}
+.tops {
+  position: fixed;
+  left: 0;
+  top: 55px;
+  z-index: 100;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  color: #464c5b;
+  line-height: 50px;
+  padding: 0 30px 0 21px;
+  background-color: #ffffff;
+  border: 1px solid #dadee3;
+}
+
+.shadow-background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 35, 53, 0.6);
+}
+
+/*paging-box内容*/
+.box-span {
+  position: relative;
+  box-sizing: border-box;
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.box-span:after {
+  display: none;
+}
+
+.calendar-content div ul li em.on {
+  display: inherit;
+  background-color: #4683de;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.calendar-content div ul li em.gray {
+  display: inherit;
+  background-color: #ccc;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.scroll {
+  box-sizing: border-box;
+  min-height: 30px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+/* 滚动条的滑轨背景颜色 */
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+}
+
+/* 滑块颜色 */
+::-webkit-scrollbar-button {
+  background-color: #ffffff;
+}
+
+/* 滑轨两头的监听按钮颜色 */
+.app {
+  height: 100%;
+}
+
+/*增加加载中效果的层级*/
+.ivu-spin-fix {
+  z-index: 999;
+}
+
+.demo-spin-icon-load {
+  animation: ani-demo-spin 1s linear infinite;
+}
+#app {
+  height: 100%;
+  overflow: hidden;
+}

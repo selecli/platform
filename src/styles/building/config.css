@@ -1,0 +1,38 @@
+.config {
+    width: 100%;
+    height: 100%;
+}
+.config-list {
+    padding: 10px 15px; 
+}
+.config-action{
+    padding: 10px 15px 10px;
+}
+.config-list{
+    height:100%;
+}
+.config-list .list{
+   height: calc(100% - 230px);
+}
+.configTitle .list{
+  height: calc(100% - 260px);
+}
+.config-add-txt{
+    display:inline-block; 
+    width:80px; 
+    text-align:right; 
+}
+
+.version-table{
+  margin-top: 20px;
+}
+.version-table .ivu-table-cell button{
+    padding: 0;
+}
+
+.versionShow{
+  display: inline-block;
+}
+.versionHide{
+    display:none;
+}
